@@ -1,11 +1,55 @@
 /*Icons*/
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
 
-
-
-
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@700&display=swap');
+
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700 !important;
+    color: var(--greyBlue) !important;
+}
+
+h1 {    
+    font-size: 48px !important;    
+}
+
+h2 {    
+    font-size: 32px !important;
+}
+
+h3 {    
+    font-size: 28px !important;   
+}
+
+h4 {    
+    font-size: 18px !important;  
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f15 {
+    font-size: 15px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+.f-bold {
+    font-weight: 700 !important;
+}
+
+.f-normal {
+    font-weight: 400 !important;
+}
 
 /*Colors*/
 :root {
@@ -21,10 +65,50 @@
     --white: #fff;
 }
 
+.color-blue {
+    color: var(--blue) !important;
+}
+
+.color-lightblue {
+    color: var(--lightBlue) !important;
+}
+
+.color-greyblue {
+    color: var(--greyBlue) !important;
+}
+
+.color-darkblue {
+    color: var(--darkBlue) !important;
+}
+
+.color-greytitle {
+    color: var(--greyTitle) !important;
+}
+
+.color-grey {
+    color: var(--textGrey) !important;
+}
+
+.color-highlightgrey {
+    color: var(--highlightGrey) !important;
+}
+
+.color-black {
+    color: var(--black) !important;
+}
+
+.color-white {
+    color: var(--white) !important;
+}
+
 /*Common Classes*/
 
 a {
     text-decoration: none !important;    
+}
+
+.hover-transition {
+    transition: ease 0.5s;
 }
 
 /*Buttons and Links*/
@@ -36,8 +120,7 @@ a {
     font-size: 14px;
     text-align: center;
     padding: 6px 24px;    
-    border-radius: 50px;
-    transition: ease 0.5s;
+    border-radius: 50px;    
     width: 170px;
     display: block;
 }
@@ -62,8 +145,7 @@ a {
 
 .link-common {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    transition: ease 0.5s;
+    font-weight: 700;    
     font-size: 15px;
 }
 
@@ -84,4 +166,69 @@ a {
     color: var(--blue);
 }
 
+/*Circle Icons*/
 
+.circle-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.circle-icon-big {
+    border: 1px solid var(--iconColor);
+    width: 64px;
+    min-width: 64px;
+    height: 64px;
+    min-height: 64px;    
+}
+
+.circle-icon-big i {
+    font-size: 32px;
+}
+
+.circle-icon-big.blue,
+.circle-icon-big.white:hover {
+    background: var(--blue);
+    color: var(--white);
+    border-color: var(--blue);
+}
+
+.circle-icon-big.white,
+.circle-icon-big.blue:hover {
+    border-color: var(--iconColor);
+    background: var(--white);
+    color: var(--blue);    
+}
+
+.circle-icon-medium {
+    border: 1px solid var(--blue);
+    background: var(--blue);
+    width: 48px;
+    min-width: 48px;
+    height: 48px;
+    min-height: 48px;    
+}
+
+.circle-icon-medium i {
+    font-size: 24px;
+    color: var(--white);
+}
+
+.circle-icon-small {    
+    background: var(--iconColor);
+    color: var(--white);
+    width: 32px;
+    min-width: 32px;
+    height: 32px;
+    min-height: 32px;    
+}
+
+.circle-icon-small i {
+    font-size: 16px;
+}
+
+.circle-icon-small.blue:hover {
+    background: var(--blue);
+    border-color: var(--blue);
+}
