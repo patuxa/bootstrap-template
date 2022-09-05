@@ -43,6 +43,10 @@ p {
     font-size: 16px;
 }
 
+.f18 {
+    font-size: 18px;
+}
+
 .f24 {
     font-size: 24px;
 }
@@ -123,19 +127,35 @@ a {
     transition: ease 0.5s;
 }
 
+.boxed-layout {
+    max-width: 1320px;
+}
+
 /*Buttons and Links*/
 
 .btn-common {
-    color: var(--white);
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    text-align: center;
-    padding: 6px 24px;    
-    border-radius: 50px;    
-    width: 170px;
-    display: block;
+    color: var(--white) !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    text-align: center !important;
+    padding: 6px 24px !important;    
+    border-radius: 50px !important;    
+    width: 170px !important;
+    display: block !important;
 }
+
+.btn-short {
+    color: var(--white) !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    text-align: center !important;
+    padding: 12px 30px !important;    
+    border-radius: 50px !important;        
+    display: block !important;
+}
+
 
 .btn-blue {
     background: var(--blue);    
@@ -170,12 +190,12 @@ a {
 }
 
 .link-regular {
-    color: var(--darkBlue);
-    font-weight: 400;
+    color: var(--darkBlue) !important;
+    font-weight: 400 !important;
 }
 
 .link-regular:hover {
-    color: var(--blue);
+    color: var(--blue) !important;
 }
 
 /*Circle Icons*/
@@ -244,3 +264,45 @@ a {
     background: var(--blue);
     border-color: var(--blue);
 }
+
+/*Top Bar*/
+
+.top-bar {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F4FAFF 100%);
+}
+
+.top-bar-contact a {
+    margin-right: 15px;
+}
+
+.top-bar-contact i,
+.top-bar-social i {
+    margin-right: 15px;
+}
+
+.top-bar .row {
+    height: 40px;    
+}
+
+/*Nav Bar*/
+
+nav {
+    background: var(--white) !important;
+    height: 100px !important;
+}
+
+
+.navbar-brand img {
+    width: 70px;
+    height: 29px;
+}
+
+.nav-link.active {
+    color: var(--blue) !important;
+    border-bottom: 2px solid var(--blue);    
+}
+
+.navbar-nav li {
+    margin-right: 30px;
+}
+

@@ -14,33 +14,41 @@
 <body>
     <header>
         <section class="top-bar">
-            <div class="container-fluid">
-                <div class="row">                    
+            <div class="container-fluid boxed-layout">
+                <div class="row align-items-center">                    
                     <div class="col-auto">
-                        <div class="top-bar-contact">
-                            <a href="mailto:contato@example.com.br">
-                                <i class="bi bi-envelope"></i>contato@example.com.br
+                        <div class="top-bar-contact d-flex d-flex align-items-start">
+                            <a href="mailto:contato@example.com.br" title="Mail Us" class="f14 color-greytitle d-flex align-items-center">
+                                <i class="bi bi-envelope f18 color-blue"></i>contato@example.com.br
                             </a>
-                            <a href="tel:+5511955555555">
-                                <i class="bi bi-telephone"></i>(55) 11 95555-5555
+                            <a href="tel:+5511955555555" title="Call Us" class="f14 color-greytitle d-flex align-items-center">
+                                <i class="bi bi-telephone f18 color-blue"></i>(55) 11 95555-5555
                             </a>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="top-bar-social">
-                            <i class="bi bi-twitter"></i>
-                            <i class="bi bi-facebook"></i>
-                            <i class="bi bi-instagram"></i>
-                            <i class="bi bi-linkedin"></i>
+                        <div class="top-bar-social d-flex justify-content-end">
+                            <a href="#" title="Twitter" class="f18 color-blue">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                            <a href="#" title="Facebook" class="f18 color-blue">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#" title="Instagram" class="f18 color-blue">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                            <a href="#" title="Linkedin" class="f18 color-blue">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <nav class="navbar navbar-expand-lg bg-light main-menu">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg main-menu">
+            <div class="container-fluid boxed-layout">
                 <h1>
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="#" title="Seu Logo">
                         <img src="assets/img/logo.png" alt="Logo">
                     </a>
                 </h1>              
@@ -48,21 +56,24 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link link-regular px-0 active" aria-current="page" href="#" title="Home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
+                    <a class="nav-link link-regular px-0" href="#" title="Sobre">Sobre</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Serviços</a>
+                    <a class="nav-link link-regular px-0" href="#" title="Serviços">Serviços</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">Departamentos</a>
+                    <a class="nav-link link-regular px-0" href="#" title="Departamentos">Departamentos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link">Equipe</a>
+                    <a class="nav-link link-regular px-0" href="#" title="Equipes">Equipe</a>
+                  </li>
+                  <li class="nav-item nav-btn">
+                    <a class="nav-link btn-short btn-blue" href="#" title="Equipes">Contato</a>
                   </li>
                 </ul>
               </div>
@@ -112,7 +123,7 @@
               </div>
         </section>
         <section class="hightlight-boxes">
-            <div class="container-fluid">
+            <div class="container-fluid boxed-layout">
                 <div class="row">
                     <div class="col">
                         <div class="hightlight-boxes-mainly">
@@ -146,7 +157,7 @@
             </div>
         </section>
         <section class="company-content">
-            <div class="container-fluid">
+            <div class="container-fluid boxed-layout">
                 <div class="row">
                     <div class="col">
                         <figure class="video-modal">
@@ -232,7 +243,7 @@
             </div>
         </section>
         <section class="company-numbers">
-            <div class="container-fluid">
+            <div class="container-fluid boxed-layout">
                 <div class="row">
                     <div class="col-3">
                         <div class="company-numbers-boxes">
@@ -274,7 +285,7 @@
             </div>
         </section>
         <section class="services">
-            <div class="container-fluid">
+            <div class="container-fluid boxed-layout">
                 <div class="row">
                     <div class="col">
                         <h2>Serviços</h2>
@@ -283,8 +294,8 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-4">
-                                <div class="services-boxes-white">
-                                    <div class="services-boxes-icon circle-icon-big white circle-icon">
+                                <div class="services-boxes">
+                                    <div class="services-boxes-icon circle-icon-big blue circle-icon">
                                         <i class="bi bi-plus"></i>
                                     </div>
                                     <h3>Lorem Ipsum</h3>                                   
@@ -292,7 +303,7 @@
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="services-boxes-blue">
+                                <div class="services-boxes">
                                     <div class="services-boxes-icon circle-icon-big blue circle-icon">
                                         <i class="bi bi-plus"></i>
                                     </div>
@@ -301,8 +312,8 @@
                                 </div>
                             </div>
                                 <div class="col-4">
-                                    <div class="services-boxes-white">
-                                        <div class="services-boxes-icon circle-icon-big white circle-icon">
+                                    <div class="services-boxes">
+                                        <div class="services-boxes-icon circle-icon-big blue circle-icon">
                                             <i class="bi bi-plus"></i>
                                         </div>
                                         <h3>Magni Dolores</h3>                                   
@@ -314,8 +325,8 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-4">
-                                <div class="services-boxes-white">
-                                    <div class="services-boxes-icon circle-icon-big white circle-icon">
+                                <div class="services-boxes">
+                                    <div class="services-boxes-icon circle-icon-big blue circle-icon">
                                         <i class="bi bi-plus"></i>
                                     </div>
                                     <h3>Sed ut perspiciatis</h3>                                   
@@ -323,8 +334,8 @@
                                 </div>
                             </div>
                             <div class="col-4">
-                                <div class="services-boxes-white">
-                                    <div class="services-boxes-icon circle-icon-big white circle-icon">
+                                <div class="services-boxes">
+                                    <div class="services-boxes-icon circle-icon-big blue circle-icon">
                                         <i class="bi bi-plus"></i>
                                     </div>
                                     <h3>Lorem Ipsum</h3>                                   
@@ -332,8 +343,8 @@
                                 </div>
                             </div>
                                 <div class="col-4">
-                                    <div class="services-boxes-white">
-                                        <div class="services-boxes-icon circle-icon-big white circle-icon">
+                                    <div class="services-boxes">
+                                        <div class="services-boxes-icon circle-icon-big blue circle-icon">
                                             <i class="bi bi-plus"></i>
                                         </div>
                                         <h3>Magni Dolores</h3>                                   
@@ -346,7 +357,7 @@
             </div>
         </section>
         <section class="department">
-            <div class="container-fluid">
+            <div class="container-fluid boxed-layout">
                 <div class="row">
                     <div class="col-12">
                         <h2>Departamentos</h2>
@@ -354,7 +365,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
+            <div class="container-fluid boxed-layout">
                 <div class="row">
                     <div class="col-3">
                         <div class="d-flex align-items-start">
@@ -430,7 +441,7 @@
             </div>              
         </section>
         <section class="our-team">
-            <div class="container-fluid">
+            <div class="container-fluid boxed-layout">
                 <div class="row">
                     <div class="col-12">
                         <h2>Nosso Time</h2>
@@ -438,7 +449,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
+            <div class="container-fluid boxed-layout">
                 <div class="row">
                     <div class="col-6">
                         <div class="our-team-boxes">
@@ -490,7 +501,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
+            <div class="container-fluid boxed-layout">
                 <div class="row">
                     <div class="col-6">
                         <div class="our-team-boxes">
@@ -544,7 +555,7 @@
             </div>
         </section>
         <section class="contact">
-            <div class="container-fluid">
+            <div class="container-fluid boxed-layout">
                 <div class="row">
                     <div class="col-12">
                         <h2>Nosso Time</h2>
@@ -552,7 +563,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
+            <div class="container-fluid p-0">
                 <div class="row">
                     <div class="col-12">
                         <div class="contact-map">
@@ -561,7 +572,7 @@
                     </div>                    
                 </div>
             </div>
-            <div class="container-fluid">
+            <div class="container-fluid boxed-layout">
                 <div class="row">
                     <div class="col-4">
                         <div class="contact-list">
