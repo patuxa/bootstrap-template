@@ -79,6 +79,7 @@ p {
     --highlightGrey: #444444;
     --black: #000;
     --white: #fff;
+    --lightgrey: #F1F7FD
 }
 
 .color-blue {
@@ -116,6 +117,11 @@ p {
 .color-white {
     color: var(--white) !important;
 }
+
+.lightgrey {
+    color: var(--lightgrey) !important;
+}
+
 
 /*Common Classes*/
 
@@ -306,3 +312,124 @@ nav {
     margin-right: 30px;
 }
 
+
+/*Slider*/
+
+.carousel-bg {
+    height: 850px;
+}
+
+.slider-content .slide-1 {
+    background-image: url("/assets/img/slide-01.jpg");    
+}
+
+.slider-content .slide-2 {
+    background-image: url("/assets/img/slide-02.jpg");    
+}
+
+.slider-content .slide-3 {
+    background-image: url("/assets/img/slide-03.jpg");    
+}
+
+.slider-content .carousel-content {    
+    width: 425px;
+    position: absolute;
+    top: 155px;
+    left: 204px;
+}
+
+.slider-content .carousel-content.carousel-bottom {
+    top: auto;
+    bottom: 155px;
+}
+
+
+.slider-content .carousel-content h4,
+.slider-content .carousel-content a {
+    margin-top: 32px;
+}
+
+
+/*Hightlight Boxes*/
+
+.hightlight-boxes {
+    margin-top: -80px;
+    position: relative;
+    z-index: 100;
+}
+
+.hightlight-boxes .row {
+    align-items: center;
+} 
+
+.hightlight-boxes .hightlight-boxes-mainly {
+    background: linear-gradient(304.66deg, #1977CC 38.94%, #3896EA 100%);       
+}
+
+.hightlight-boxes .hightlight-boxes-mainly a {
+    margin: auto;
+}
+
+.hightlight-boxes .hightlight-boxes-content {
+    padding: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.hightlight-boxes .hightlight-boxes-secundary {
+    text-align: center;
+    background: var(--white);
+}
+
+.hightlight-boxes .hightlight-boxes-secundary i {
+    font-size: 40px;
+    color: var(--blue);        
+}
+
+.hightlight-boxes-content p,
+.hightlight-boxes-content h4 {
+    margin: 17px 0;
+}
+
+/*Company*/
+
+.company-content {
+    margin-top: 65px;
+}
+
+.company-content .video-modal {
+    background-image: url(/assets/img/about-us.jpg);    
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    min-height: 386px;
+}
+
+.company-content .video-modal i {
+    font-size: 50px;
+    color: var(--white);    
+}
+
+.company-content .company-content-infos {
+    margin-bottom: 35px;
+}
+
+.company-content-list .row {
+    margin-bottom: 10px;
+}
+
+.company-numbers {
+    background: var(--lightgrey);
+    margin-top: 60px;
+    padding: 45px 0;
+    text-align: center;
+}
+
+.company-numbers .company-numbers-boxes {
+    background: var(--white);
+    padding-bottom: 25px;
+}
+
+.company-numbers .company-numbers-icon {
+    margin-top: -24px;
+}
