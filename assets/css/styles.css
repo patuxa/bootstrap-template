@@ -32,27 +32,27 @@ p {
 }
 
 .f14 {
-    font-size: 14px;
+    font-size: 14px !important;  
 }
 
 .f15 {
-    font-size: 15px;
+    font-size: 15px !important;  
 }
 
 .f16 {
-    font-size: 16px;
+    font-size: 16px !important;  
 }
 
 .f18 {
-    font-size: 18px;
+    font-size: 18px !important;  
 }
 
 .f24 {
-    font-size: 24px;
+    font-size: 24px !important;  
 }
 
 .f36 {
-    font-size: 36px;
+    font-size: 36px !important;  
 }
 
 .f-bold {
@@ -349,7 +349,6 @@ nav {
     margin-top: 32px;
 }
 
-
 /*Hightlight Boxes*/
 
 .hightlight-boxes {
@@ -411,10 +410,10 @@ nav {
 }
 
 .company-content .company-content-infos {
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
-.company-content-list .row {
+.company-content-list .row p {
     margin-bottom: 10px;
 }
 
@@ -433,3 +432,50 @@ nav {
 .company-numbers .company-numbers-icon {
     margin-top: -24px;
 }
+
+/*Serviços*/
+
+.services {
+    text-align: center;
+}
+
+.services h2 {
+    margin: 60px 0 40px 0;
+}
+
+.services .services-boxes {
+    background: var(--white);
+    border: 1px solid #A0BCD5;
+    padding: 80px 20px;
+    margin-bottom: 30px;
+}
+
+.services .services-boxes h3,
+.services .services-boxes p {
+    margin-bottom: 16px;
+}
+
+.services p {
+    margin-bottom: 30px;
+}
+
+.services .services-boxes:hover {
+    background: var(--blue);        
+}
+
+.services .services-boxes:hover .services-boxes-icon {
+    background: var(--white) !important;
+    color: var(--blue);
+}
+
+.services .services-boxes:hover h3,
+.services .services-boxes:hover p {
+    color: var(--white) !important;
+}
+
+.services-boxes .services-boxes-icon {
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+
