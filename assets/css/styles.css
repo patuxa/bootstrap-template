@@ -182,13 +182,13 @@ a {
 }
 
 .link-common {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;    
-    font-size: 15px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700 !important;    
+    font-size: 15px !important;
 }
 
 .link-bold {
-    color: var(--darkBlue);
+    color: var(--darkBlue) !important;
 }
 
 .link-bold:hover {
@@ -266,9 +266,10 @@ a {
     font-size: 16px;
 }
 
-.circle-icon-small.blue:hover {
+.circle-icon-small:hover {
     background: var(--blue);
     border-color: var(--blue);
+    color: var(--white);
 }
 
 /*Top Bar*/
@@ -478,4 +479,122 @@ nav {
     margin-bottom: 25px;
 }
 
+
+/*Departamentos*/
+
+.department {
+    margin-top: 30px;
+}
+
+.department p {
+    margin: 40px 0 30px;
+}
+
+.department .tab-content h3 {
+    font-size: 26px !important;
+}
+
+.department .nav-pills button {
+    background: none !important;
+    text-align: left;
+    color: var(--darkBlue) !important;
+    font-weight: 700;
+    padding: 14px 0;
+    border-right: 1px solid var(--lightBlue);
+    border-radius: 0;
+}
+
+.department .nav-pills button:hover,
+.department .nav-pills button.active {
+    color: var(--blue) !important;
+    border-right: 2px solid var(--darkBlue);
+}
+
+.department .tab-content p {
+    margin: 20px 0 !important;
+}
+
+/*Nosso Time*/
+
+.our-team {
+    margin-top: 30px;
+}
+
+.our-team p {
+    margin-top: 40px;
+}
+
+.our-team .our-team-boxes {
+    background: var(--white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px 0;    
+}
+
+.our-team .our-team-boxes p {
+    margin: 10px 0;    
+}
+
+.our-team .our-team-boxes h3 {
+    font-size: 26px !important;    
+}
+
+.our-team .our-team-boxes .our-team-img img{
+    border-radius: 50%;
+}
+
+.our-team .our-team-boxes .our-team-social a{
+    margin-right: 8px;
+}
+
+
+/*Contato*/
+
+.contact {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact p {
+    margin-top: 40px;
+}
+
+.contact .contact-list {
+    text-align: left;
+}
+
+.contact .contact-list .container-fluid {
+    margin-bottom: 30px;
+}
+
+.contact .contact-form {
+    background: var(--white);
+}
+
+.contact .contact-form ::placeholder {
+    font-size: 14px;
+    color: var(--iconColor)
+}
+
+
+.contact .contact-form input,
+.contact .contact-form textarea {
+    border: 1px solid var(--iconColor);
+    border-radius: 0%;
+    margin-bottom: 16px;    
+}
+
+
+.contact .contact-form input {
+    height: 44px;
+}
+
+.contact .contact-form textarea {
+    height: 84px;
+}
+
+.contact .contact-form .contact-submit button {
+    border: none;
+}
 
